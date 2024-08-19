@@ -1,0 +1,23 @@
+// find the smallest element of array.
+#include<stdio.h>
+int main()
+{
+     int n,i=0;
+    printf("ENTER THE TOTAL NUMBER OF ELMENT  ARRAYS\n");
+    scanf("%d",&n);
+    int a[n],smal=0;
+    for(i=0;i<n;i++)
+    {
+        printf("the element of  array\n");
+        scanf("%d",&a[i]);
+    }
+   smal=a[0];
+    for(i=0;i<n;i++)
+    {
+        if(a[i]<smal)
+        {
+            smal=a[i];
+        }
+    }
+    printf("\nthe  smallest element of the array is %d",smal);
+}
