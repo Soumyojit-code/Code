@@ -1,0 +1,15 @@
+// sum of the elements of array
+#include<stdio.h>
+int main()
+{
+    int a[20],i,n,sum=0;
+    printf("ENTER THE TOTAL NUMBER OF ELMENT IN ARRAY\n");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("the element of array ");
+        scanf("%d",&a[i]);
+        sum=sum+a[i];
+    }
+    printf("\nthe sumation of all element of array is %d",sum);
+}
