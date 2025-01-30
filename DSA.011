@@ -2,7 +2,7 @@
 #include<stdio.h>
 int Quick(int *a,int beg,int end);
 int Partition(int *a,int beg,int end);
-int Partition(int *a,int beg,int end)//3
+int Partition(int *a,int beg,int end)
 {
     int tem,loc,r,l,fleg;
     loc=l=beg;
