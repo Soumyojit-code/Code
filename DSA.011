@@ -42,7 +42,7 @@ int Partition(int *a,int beg,int end)
     }
     return loc;
 }
-int Quick(int *a,int beg,int end)//2
+int Quick(int *a,int beg,int end)
 {
     int loc;
     if(beg<end)
@@ -52,7 +52,7 @@ int Quick(int *a,int beg,int end)//2
         Partition(a, loc+1,end);
     }
 }
-int main()//1
+int main()
 {
     int n,i;
     printf("Enter the total numer of element of the array: ");
